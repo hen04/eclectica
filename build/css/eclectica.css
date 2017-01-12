@@ -1,0 +1,104 @@
+body {
+  color: #000;
+  background-color: #fff;
+  font: 500 14px/1 Roboto, Arial, sans-serif; }
+
+.wrapper, .main-content, footer {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.main-content {
+  min-height: -webkit-calc(100vh - 145px);
+  min-height: -moz-calc(100vh - 145px);
+  min-height: calc(100vh - 145px);
+  position: relative; }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0; }
+
+.slider-top {
+  height: 566px; }
+  .slider-top__item {
+    position: relative; }
+  .slider-top__txt {
+    position: absolute;
+    right: 0;
+    width: 450px; }
+  .slider-top .address {
+    float: left;
+    width: 260px;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.3; }
+    .slider-top .address a {
+      color: #fff;
+      display: block;
+      text-decoration: none; }
+  .slider-top .soc-icons {
+    float: left;
+    width: 150px;
+    margin-top: 25px; }
+    .slider-top .soc-icons__item {
+      float: left;
+      width: 43px;
+      height: 43px;
+      margin-right: 3px;
+      background-image: url(../img/soc-icons.png); }
+    .slider-top .soc-icons--fb-white {
+      background-position: 0 0; }
+    .slider-top .soc-icons--vk-white {
+      background-position: -44px 0; }
+    .slider-top .soc-icons--in-white {
+      background-position: -88px 0; }
+    .slider-top .soc-icons--fb-black {
+      background-position: 0 -45px; }
+    .slider-top .soc-icons--vk-black {
+      background-position: -44px -45px; }
+    .slider-top .soc-icons--in-black {
+      background-position: -88px -45px; }
+  .slider-top .slogan {
+    clear: both;
+    color: #fff;
+    font-weight: 300; }
+    .slider-top .slogan p {
+      font-size: 40px;
+      margin-bottom: 20px; }
+    .slider-top .slogan span {
+      font-size: 25px;
+      float: right;
+      padding-right: 40px; }
+
+ul.menu-top {
+  height: 40px;
+  background-color: #ffb400;
+  padding: 0;
+  margin: 0;
+  display: table;
+  width: 100%;
+  text-align: center; }
+  ul.menu-top li {
+    list-style: none;
+    display: table-cell;
+    width: 14.2%;
+    vertical-align: middle; }
+  ul.menu-top a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000; }
+
+footer {
+  height: 145px;
+  background-color: #000;
+  color: #fff; }
+
+/*# sourceMappingURL=maps/eclectica.css.map */
