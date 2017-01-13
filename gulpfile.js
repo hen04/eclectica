@@ -2,7 +2,6 @@ var gulp = require('gulp'),
 	style = require('gulp-sass'),
 	jade = require('gulp-jade'),
 	autoprefixer = require('gulp-autoprefixer'),
-	sourcemaps = require('gulp-sourcemaps'),
 	browserSync = require('browser-sync').create();
 
 // Jade
@@ -17,9 +16,7 @@ gulp.task('jade', function(){
 // style
 gulp.task('style', function () {
 	gulp.src('src/scss/*.scss')
-		.pipe(sourcemaps.init({loadMaps: true}))
 		.pipe(style().on('error', style.logError))
-		.pipe(sourcemaps.write('/maps'))
 		.pipe(gulp.dest('build/css/'))
 		.on('end', browserSync.reload);
 });

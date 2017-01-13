@@ -9,4 +9,11 @@ $(function(){
 		cssEase: 'linear'
 	});
 
+	$('.slider-service').slick({
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1
+	});
+
+
 });
