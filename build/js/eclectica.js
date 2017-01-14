@@ -11,9 +11,9 @@ $(function(){
 
 	$('.slider-service').slick({
 		infinite: true,
-		speed: 500,
-		slidesToShow: 1
+		speed: 500
 	});
 
+	$('.slider-content').slick();
 
 });

@@ -5,25 +5,25 @@ html(lang="ru")
 		title Арт-студия "Эклектика"
 		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,900")
 		link(rel="stylesheet" href="css/normalize.css")
-		link(rel="stylesheet" href="css/eclectica.css")
 		link(rel="stylesheet", href="css/slick.css")
 		link(rel="stylesheet", href="css/slick-theme.css")
+		link(rel="stylesheet" href="css/eclectica.css")
 		script(src="//code.jquery.com/jquery-1.11.0.min.js")
 		script(src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
 		script(src="js/slick.min.js")
 		script(src="js/eclectica.js")
 		body
 		.main-content
-			header
+			header.main-header
 				.slider-top
 					.slider-top__item
 						.slider-top__txt
-							.address
+							.address.address--slider
 								p +7 812 982 69 61
 								p +7 905 222 69 61
 								a(href="www.eklektika-spb.ru") www.eklektika-spb.ru
 								a(href="mailto:eklektika-spb@yandex.ru") eklektika-spb@yandex.ru
-							.soc-icons
+							.soc-icons.soc-icons--slider
 								a(href="#").soc-icons__item.soc-icons--fb-white
 								a(href="#").soc-icons__item.soc-icons--vk-white
 								a(href="#").soc-icons__item.soc-icons--in-white
@@ -33,12 +33,12 @@ html(lang="ru")
 						img(src="img/slider-top-1.jpg", alt="")
 					.slider-top__item
 						.slider-top__txt
-							.address
+							.address.address--slider
 								p +7 812 982 69 61
 								p +7 905 222 69 61
 								a(href="www.eklektika-spb.ru") www.eklektika-spb.ru
 								a(href="mailto:eklektika-spb@yandex.ru") eklektika-spb@yandex.ru
-							.soc-icons
+							.soc-icons.soc-icons--slider
 								a(href="#").soc-icons__item.soc-icons--fb-black
 								a(href="#").soc-icons__item.soc-icons--vk-black
 								a(href="#").soc-icons__item.soc-icons--in-black
@@ -48,12 +48,12 @@ html(lang="ru")
 						img(src="img/slider-top-2.jpg", alt="")
 					.slider-top__item
 						.slider-top__txt
-							.address
+							.address.address--slider
 								p +7 812 982 69 61
 								p +7 905 222 69 61
 								a(href="www.eklektika-spb.ru") www.eklektika-spb.ru
 								a(href="mailto:eklektika-spb@yandex.ru") eklektika-spb@yandex.ru
-							.soc-icons
+							.soc-icons.soc-icons--slider
 								a(href="#").soc-icons__item.soc-icons--fb-white
 								a(href="#").soc-icons__item.soc-icons--vk-white
 								a(href="#").soc-icons__item.soc-icons--in-white
@@ -71,7 +71,7 @@ html(lang="ru")
 					li
 						a(href="") Цены
 					li
-						a(href="") Интересное
+						a(href="second.html") Интересное
 					li
 						a(href="") Статьи 
 					li
@@ -109,17 +109,17 @@ html(lang="ru")
 						.news-info
 							h2 Наши новинки
 							.news-list
-								.news-item
+								.news-item.news-item--index
 									.news-item__txt.news-item--orange
 										.news-item__middle
 											span.date 24.11.2016
 											p Новое оборудование в нашей студии
-								.news-item
+								.news-item.news-item--index
 									.news-item__txt.news-item--green
 										.news-item__middle
 											span.date 24.11.2016
 											p Новое оборудование в нашей старой студии, а также старое оборудование в нашей студии.
-								.news-item
+								.news-item.news-item--index
 									.news-item__txt.news-item--blue
 										.news-item__middle
 											span.date 24.11.2016
@@ -127,6 +127,67 @@ html(lang="ru")
 							.news-list__lnk
 								a(href="#") Читать далее
 					.slider-service__item
-					.slider-service__item
+						.service-info
+							h2 Наши услуги
+							.service-list
+								.service-item
+									p.service-section Мастер-классы
+									.service-name
+										p - Курсы рисования
+										p - Живопись
+									.service-text 
+										p Рисование. Небольшое описание или какой-нибудь текст. 
+									a(href="#") Читать далее
+								.service-item
+									p.service-section Творчество
+									.service-name
+										p - Курсы рисования
+										p - Живопись
+										p - Акварель
+									.service-text 
+										p Рисование. Небольшое описание или какой-нибудь текст. Может быть немножко побольше текста.
+									a(href="#") Читать далее
+								.service-item
+									p.service-section "Багетка"
+									.service-name
+										p - Багеты
+									.service-text 
+										p Текст про багетную мастерскую
+									a(href="#") Читать далее
+						.news-info
+							h2 Наши новинки
+							.news-list
+								.news-item.news-item--index
+									.news-item__txt.news-item--orange
+										.news-item__middle
+											span.date 24.11.2016
+											p Новое оборудование в нашей студии
+								.news-item.news-item--index
+									.news-item__txt.news-item--green
+										.news-item__middle
+											span.date 24.11.2016
+											p Новое оборудование в нашей старой студии, а также старое оборудование в нашей студии.
+								.news-item.news-item--index
+									.news-item__txt.news-item--blue
+										.news-item__middle
+											span.date 24.11.2016
+											p Оборудование в нашей студии
+							.news-list__lnk
+								a(href="#") Читать далее
 		footer
-			1
+			.site-map
+				a(href="#") Карта сайта
+			.contacts
+				a(href="#") Контакты
+			.footer-info
+				p +7 812 982 69 61, 
+					a(href="www.eklektika-spb.ru") www.eklektika-spb.ru
+				p ЭклектикаСПб
+					sup &copy;
+				.footer-soc-icons
+					a(href="").footer-soc-icons__item.footer-soc-icons--in
+					a(href="").footer-soc-icons__item.footer-soc-icons--vk
+					a(href="").footer-soc-icons__item.footer-soc-icons--fb
+				.counter
+					//- Сюда вставить код счетчика, картинка временная, ее можно удалить
+					img(src="img/counter.png", alt="")
