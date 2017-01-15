@@ -11,7 +11,8 @@ $(function(){
 
 	$('.slider-service').slick({
 		infinite: true,
-		speed: 500
+		speed: 500,
+		autoplay: true
 	});
 
 	$('.slider-content').slick();
