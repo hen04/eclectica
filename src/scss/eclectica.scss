@@ -186,9 +186,6 @@ main {
 .slick-next:before {
 	background-position: 0 100%;
 }
-.slider-service__item {
-	background: url(../img/service-bg.jpg) 50% 80px no-repeat;
-}
 .slider-content__item {
 	p {
 		text-align: right;
@@ -198,6 +195,7 @@ main {
 }
 .service-info {
 	margin: 40px 0 50px;
+	background: url(../img/service-bg.jpg) 50% 80px no-repeat;
 	h2 {
 		margin-left: 180px;
 	}

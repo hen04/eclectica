@@ -169,16 +169,14 @@ main {
 .slick-next:before {
   background-position: 0 100%; }
 
-.slider-service__item {
-  background: url(../img/service-bg.jpg) 50% 80px no-repeat; }
-
 .slider-content__item p {
   text-align: right;
   font-size: 16px;
   font-weight: 300; }
 
 .service-info {
-  margin: 40px 0 50px; }
+  margin: 40px 0 50px;
+  background: url(../img/service-bg.jpg) 50% 80px no-repeat; }
   .service-info h2 {
     margin-left: 180px; }
 
